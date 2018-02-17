@@ -20,7 +20,9 @@ public class Activator implements BundleActivator {
      *                   release all services used by this bundle.
      */
     @Override
-    public void start(BundleContext context) throws Exception {
+    public void start(BundleContext context) {
+
+        System.out.println("Bundle gestartet!!!");
 
     }
 
@@ -42,7 +44,9 @@ public class Activator implements BundleActivator {
      *                   release all services used by the bundle.
      */
     @Override
-    public void stop(BundleContext context) throws Exception {
+    public void stop(BundleContext context)  {
+
+        System.out.println("Bundle gestoppt!!!");
 
     }
 }
