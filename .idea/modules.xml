@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BasicBundle.iml" filepath="$PROJECT_DIR$/.idea/modules/BasicBundle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BasicBundle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/BasicBundle_main.iml" group="BasicBundle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BasicBundle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/BasicBundle_test.iml" group="BasicBundle" />
+    </modules>
+  </component>
+</project>
