@@ -3,7 +3,12 @@ package net.kalytta.java.osgi.basicbundle;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class Activator implements BundleActivator {
+
+    private static final Logger LOGGER = Logger.getLogger(Activator.class.getName());
     /**
      * Called when this bundle is started so the Framework can perform the
      * bundle-specific activities necessary to start this bundle. This method
@@ -22,7 +27,7 @@ public class Activator implements BundleActivator {
     @Override
     public void start(BundleContext context) {
 
-        System.out.println("Bundle gestartet!!!");
+        LOGGER.log(Level.INFO, "BasicBundle started...");
 
     }
 
@@ -46,7 +51,7 @@ public class Activator implements BundleActivator {
     @Override
     public void stop(BundleContext context)  {
 
-        System.out.println("Bundle gestoppt!!!");
+        LOGGER.log(Level.INFO, "BasicBundle started...");
 
     }
 }
