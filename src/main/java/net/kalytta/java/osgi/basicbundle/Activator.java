@@ -51,7 +51,7 @@ public class Activator implements BundleActivator {
     @Override
     public void stop(BundleContext context)  {
 
-        LOGGER.log(Level.INFO, "BasicBundle started...");
+        LOGGER.log(Level.INFO, "BasicBundle stopped...");
 
     }
 }
